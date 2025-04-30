@@ -1,0 +1,22 @@
+Name		Data Type	Meas.	Description
+	----		---------	-----	-----------
+	CropType	nominal			fixed Numeric values (1->Wheat blow is for all)
+	CropDays	nominal			Days passed after sowing crop
+	SoilMoisture	continuous	DHT11	Soil Moisture , Can be read by soil moisture sensor
+	temperature	continuous	°C	perpendicular to length
+	Humidity	continuous	%	with meat in shell
+	Irrigation 	Binary			1 for Irrigation required 0 for not
+
+	CropTypes possible Values
+	Value				Crop
+	----				----
+	1				Wheat
+	2				Ground Nuts
+	3				Garden flowers
+	4				Maize
+	5				Paddy
+	6				Potato
+	7				pulse
+	8				SugerCane
+	9				coffee
+
